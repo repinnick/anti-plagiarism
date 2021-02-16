@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.container {
+  max-width: 1220px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Exo 2", sans-serif;
+  margin-top: 35px;
+}
+
+.title {
+  text-align: center;
+  color: #ffffff;
+}
+
+.title h1 {
+  font-weight: 800;
+  font-style: normal;
+  font-size: 90px;
+  line-height: 108px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title h2 {
+  margin-top: 37px;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sub_content {
+  width: 50%;
+  max-width: 560px;
+}
+
+.image img {
+  width: 100%;
+  height: 340px;
+  border-radius: 20px;
+}
+
+.textarea_form textarea {
+  width: 100%;
+  height: 240px;
+  background: #f4f4f4;
+  border: 2px solid #9c17db;
+  border-radius: 20px;
+  outline: none;
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 30px;
+}
+
+.textarea_form textarea::placeholder {
+  color: #b1afaf;
+}
+
+.submit_form {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  font-family: "Exo 2", sans-serif;
+}
+
+.select {
+  width: 320px;
+}
+
+.submit_form select {
+  width: 100%;
+  height: 70px;
+  background: #ffffff;
+  border: 2px solid #9c17db;
+  border-radius: 10px;
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  outline: none;
+  cursor: pointer;
+}
+
+.submit_form select option {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.btn {
+  width: 223px;
+}
+
+.btn button {
+  width: 100%;
+  max-width: 223px;
+  height: 70px;
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  color: #ffffff;
+  background: #9c17db;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn button:hover {
+  background: #c06de8;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  transition: 0.5s;
+}
+
+.btn button:active {
+  background: #9e50c2;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  transition: 0.5s;
+}
+
+.footer {
+  margin-bottom: 82px;
+  width: 100%;
+  height: 90px;
+  background: #ffffff;
+  border: 2px solid #9c17db;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer__logo {
+  padding: 40px;
+}
+
+.footer__contacts ul li {
+  list-style-type: none;
+  display: inline;
+  padding-right: 25px;
+}
+
+.footer__nickname {
+  font-style: normal;
+  font-weight: bold;
+  font-family: "Exo 2", sans-serif;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #5c5c5c;
+}
+
+/*check page*/
+
+.main__content {
+  width: 100%;
+  max-width: 940px;
+  padding: 0 20px;
+}
+
+.main__block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 130px;
+  background: #ffffff;
+  border: 2px solid #9c17db;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+.main__text h2 {
+  font-style: normal;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  color: #9c17db;
+}
+
+.main__back_button {
+  margin-top: 54px;
+  text-align: center;
+}
+
+.main__back_button a button {
+  width: 100%;
+  max-width: 223px;
+  height: 66px;
+  background: #9c17db;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  color: #ffffff;
+  outline: none;
+  text-decoration: none;
+}
+
+.main__back_button a button:hover {
+  background: #c06de8;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  transition: 0.5s;
+}
+
+.main__back_button a button:active {
+  background: #9e50c2;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  transition: 0.5s;
+}
+
+.result {
+  color: #f3f3f3;
+  font-size: 5rem;
+  font-weight: 400;
+  position: absolute;
+  bottom: 0;
+  top: 42%;
+  right: 0;
+  left: 63%;
+  z-index: 999;
+}
+
+.opacity {
+  opacity: 0.4;
+}
+
+#particles-js {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(270deg, #4568dc 0%, #af6ab3 100%), #4568dc;
+}

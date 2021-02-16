@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/index.css">
+    <link rel="stylesheet" href="src/media.css">
+    <title>textAI - C++ Anti-Plagiarism</title>
+</head>
+
+<body>
+<div id="particles-js"></div>
+
+<div class="wrapper">
+    
+    <div class="container">
+        <div class="header">
+            <div class="title">
+                <h1>text.AI</h1>
+                <h2>Intelligent App for text processing</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <main class="main">
+            <div class="sub_content">
+                <div class="">
+                    <form action="#" method="post">
+                        <div class="textarea_form">
+                            <label>
+                                <textarea name="value" id="value" cols="30" rows="10" placeholder="Input text..."></textarea>
+                            </label>
+                        </div>
+                        <div class="submit_form">
+                            <div class="select">
+                                <label for="select-option">
+                                    <select id="select-option">
+                                        <option value="">
+                                            Uniqueness
+                                        </option>
+                                        <option value="" disabled>Repetition</option>
+                                        <option value="" disabled>Misprint</option>
+                                        <option value="" disabled>Validation</option>
+                                    </select>
+
+                                </label>
+                            </div>
+                            <div class="btn">
+                                <button id=”send” type="button">Check</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="sub_content">
+                <div id="img" class="image">
+                    <img src="src/main.png" alt="main-image">
+                </div>
+            </div>
+
+        </main>
+        <div id="result" class="result"></div>
+    </div>
+
+    <div class="container">
+        <footer class="footer">
+            <div class="footer__logo">
+                <a href="http://devincubator.by/" target="_blank">
+                    <img src="src/logo.png" alt="incubator-logo">
+                </a>
+            </div>
+            <div class="footer__nickname">
+                Artur & Mikalai, 2021
+            </div>
+            <div class="footer__contacts">
+                <ul>
+                    <li>
+                        <a href="https://github.com/repinnick" target="_blank">
+                            <img src="src/github.png" alt="github-logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://vk.com/check.point" target="_blank">
+                            <img src="src/vk.png" alt="vk-logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/repin.nick" target="_blank">
+                            <img src="src/facebook.png" alt="facebook-logo">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+</div>
+
+<script src="https://kit.fontawesome.com/5c6ff8eb8e.js" crossorigin="anonymous"></script>
+
+<script src="src/particles.js"></script>
+<script src="src/app.js"></script>
+
+<script src="src/serverRequest.js"></script>
+
+</body>
+
+</html>
