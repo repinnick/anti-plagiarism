@@ -1,5 +1,4 @@
-## [textAI.cpp](https://github.com/repinnick/antiplagiat/blob/main/textAI.cpp)
-
+# Anti-plagiarism
 <b>textAI</b> is a program that compares the original text with a test fragment (a fragment of text entered by the user). The basis is taken such a system for determining plagiarism: 
 <ul>
     <li>first, we select <code>1, 2, 3</code> words from a fragment of the text, the entered by user, and check if there is such a sequence of words in the original text;</li>
