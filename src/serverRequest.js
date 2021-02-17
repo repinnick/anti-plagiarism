@@ -9,12 +9,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     request.addEventListener("readystatechange", function () {
       console.log(parseInt(request.responseText.replace(/[^\d]/g, "")));
-      //   document.querySelector("#img").classList.add("opacity");
       document.querySelector("#img").style = "background: rgba(0, 0, 0, 0.5)";
 
       document.querySelector("#result").innerHTML = `${parseInt(
         request.responseText.replace(/[^\d]/g, "")
-      )} % unique`;
+      )}% <br> unique`;
     });
 
     request.setRequestHeader(

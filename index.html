@@ -106,6 +106,16 @@
 
 <script src="src/serverRequest.js"></script>
 
+<script>
+    let backgroundBlock = document.querySelector("#img");
+    let textArea = document.querySelector("#value");
+    let result = document.querySelector('.result')
+    textArea.addEventListener('input', function() {
+        backgroundBlock.style = "";
+        result.innerHTML = "";
+    })
+</script>
+
 </body>
 
 </html>
