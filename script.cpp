@@ -36,7 +36,7 @@ int main()
     cout << "<body>\n";
     cout << "<p>";
 
-    name = form("name");
+    name = form("value");
     if (!name.empty())
     {
         cout << antiPlagiarism(getDB(), name) << "\n";
