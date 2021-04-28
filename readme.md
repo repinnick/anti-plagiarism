@@ -68,10 +68,6 @@ Final functions of the program, which allow to determine the uniqueness of the t
     <code>Mikalai Repin</code><br>
     <a href="mailto:mikalai.repin@gmail.com">mikalai.repin@gmail.com</a>
     </li>
-    <li>
-    <code>Artur Kutas</code><br>
-    <a href="mailto:artur.kytas@gmail.com">artur.kytas@gmail.com</a>
-    </li>
 </ul>
 
 <hr>
